@@ -20,7 +20,9 @@
     "iso8601": "",
     "connect": "~2.10.1"
   },
-  "engines": { "node" : "~0.8.0" },
+  "engines": {
+    "node": "~0.8.0"
+  },
   "scripts": {
     "start": "node ./tools/serve",
     "test": "make REPORTER=spec test"
